@@ -33,9 +33,17 @@ code {
 }
 
 ul {
-  margin: 0;
-  padding-left: 1.2rem;
-  list-style-type: "> ";
+  padding-left: 0;
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+}
+
+ul li:before {
+  content: '>';
+  padding-right: 0.6rem;
 }
 
 a {
