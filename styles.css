@@ -32,6 +32,12 @@ code {
     monospace;
 }
 
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style-type: "> ";
+}
+
 a {
   color: #8bc34a;
 }
