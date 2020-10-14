@@ -14,9 +14,6 @@ body {
 
 body {
   background-color: #222;
-  background-image: linear-gradient(0deg, #222225, #22222a);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   color: #eee;
   margin: 0;
   display: flex;
@@ -54,7 +51,7 @@ h1.title {
   text-align: center;
 }
 
-header {
+main {
   padding: 2rem 2rem 0;
   flex: 1;
   display: flex;
